@@ -1,80 +1,23 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Topics of Nicotine Discussions on Twitter
+description: Keywords - social media analysis, preventive medicine, nlp, data science
+img: assets/img/nicotine_image.jpeg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Background Cultural trends in the United States, the nicotine consumer marketplace, and tobacco policies are changing. Objective The goal of this study was to identify and describe nicotine-related topics of conversation authored by the public and social bots on Twitter, including any misinformation or misconceptions that health education campaigns could potentially correct. Methods Twitter posts containing the term “nicotine” were obtained from September 30, 2018 to October 1, 2019. Methods were used to distinguish between posts from social bots and nonbots. Text classifiers were used to identify topics in posts (n=300,360). Results Prevalent topics of posts included vaping, smoking, addiction, withdrawal, nicotine health risks, and quit nicotine, with mentions of going “cold turkey” and needing help in quitting. Cessation was a common topic, with mentions of quitting and stopping smoking. Social bots discussed unsubstantiated health claims including how hypnotherapy, acupuncture, magnets worn on the ears, and time spent in the sauna can help in smoking cessation. Conclusions Health education efforts are needed to correct unsubstantiated health claims on Twitter and ultimately direct individuals who want to quit smoking to evidence-based cessation strategies. Future interventions could be designed to follow these topics of discussions on Twitter and engage with members of the public about evidence-based cessation methods in near real time when people are contemplating cessation.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+More information  can be found here:
+<ul>
+  <li><a href="https://www.jmir.org/2021/6/e25579/">JMIR 2021 Paper</a></li>
+</ul>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/nicotine_table.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Distribution of bots and non-bots tweets across different topics
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

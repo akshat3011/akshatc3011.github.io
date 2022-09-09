@@ -1,80 +1,22 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Energy Delay Distortion Problem
+description: Keywords - online algorithms, theoritical comp sci, maths
+img: assets/img/tifr-1.png
+importance: 5
+category: work
 ---
+An energy-limited source trying to transmit multiple packets to a destination with possibly different sizes is considered. With limited energy, the source cannot potentially transmit all bits of all packets. In addition, there is a delay cost associated with each packet. Thus, the source has to choose, how many bits to transmit for each packet, and the order in which to transmit these bits, to minimize the cost of distortion (introduced by transmitting lower number of bits) and queueing plus transmission delay, across all packets. Assuming an exponential metric for distortion loss and linear delay cost, we show that the optimal order of transmission is the increasing order of packet sizes and optimization problem is jointly convex. Hence, the problem can be exactly solved using convex solvers, however, because of the complicated expression derived from the KKT conditions, no closed form solution can be found even with the simplest cost function choice made in the paper. To facilitate a more structured solution, a discretized version of the problem is also considered, where time and energy are divided in discrete amounts. In any time slot (fixed length), bits belonging to any one packet can be transmitted, while any discrete number of energy quanta can be used in any slot corresponding to any one packet, such that the total energy constraint is satisfied. The discretized problem is a special case of a multi-partitioning problem, where each packet's utility is super-modular and the proposed greedy solution is shown to incur cost that is at most 2-times of the optimal cost.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+More information  can be found here:
+<ul>
+  <li><a href="https://ieeexplore.ieee.org/document/8600172"> NCC 2018 paper</a></li>
+</ul>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tifr-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Representative image for the problem formulation
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

@@ -1,81 +1,46 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Analyzing Happy Moments
+description: Keywords - data science, sentiment analysis, nlp
+img: assets/img/happy-moments.png
+importance: 4
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+To psychological researchers, happiness is life experience marked by a preponderance of positive emotion. Feelings of happiness and thoughts of satisfaction with life are two prime components of subjective well-being (SWB). Thus, understanding true source or reasons of happiness is an interesting and useful task. Understanding happiness is not straightforward, rather it highly depends on past experience of an individual, but there are some commonalities between happiness similar group can be extracted out. Understanding happiness will help us to build applications that makes people happy.  We are using HappyDB dataset, a corpus of 100,000 happy moments. The dataset contains answers to the queries that correlate happy moments with the past events i.e what made people happy in the past 24 hours or alternatively, past 3 months. HappyDB also contains information about demographic characteristics of the person such as age, marital status, nationality etc. In this project, we aim to complete following three tasks:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<ol>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<li> Analyzing happy Moments among people of different age groups, sex, nationality etc. and understanding their source of happiness. </li>
 
+<li> Categorizing each happy moment into these listed categories using Seq2Seq model:
+<ol>
+  <ul>
+    <li>Achievement</li>
+
+    <li>Affection</li>
+
+    <li>Bonding</li>
+
+    <li>Enjoying the moment</li>
+
+    <li>Exercise</li>
+
+    <li>Leisure</li>
+
+    <li>Nature</li>
+</ul>
+<li> Building a heuristics to score positivity or negativity of a sentence.</li>
+</ol>
+More information and code can be found here:
+<ul>
+  <li><a href="https://bitbucket.org/akshat3011/happy_nlp/src/master/">Bitbucket Project Link</a></li>
+</ul>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/happy_nlp.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Word Cloud for frequent words in happy moments for mid-aged adults (25-45 years)
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
