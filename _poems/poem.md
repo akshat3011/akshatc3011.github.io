@@ -3,7 +3,7 @@ layout: page
 title: diary of a syrian kid
 description: Year - 2017
 img: assets/img/diary_of_a_syrian_kid.png
-importance: 1
+importance: 6
 category: work
 ---
 

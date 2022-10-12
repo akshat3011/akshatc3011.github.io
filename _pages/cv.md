@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: false
 nav_order: 4
-cv_pdf: akshat_choube_CV.pdf
+cv_pdf: phd_cv.pdf
 ---
