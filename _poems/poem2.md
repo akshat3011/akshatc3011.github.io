@@ -3,7 +3,7 @@ layout: page
 title: stargazing
 description: Year - 2022
 img: assets/img/stargazing.png
-importance: 8
+importance: 2
 category: work
 ---
 

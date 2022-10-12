@@ -3,7 +3,7 @@ layout: page
 title: tombstone
 description: Year - 2019
 img: assets/img/tombstone.png
-importance: 2
+importance: 1
 category: work
 ---
 
