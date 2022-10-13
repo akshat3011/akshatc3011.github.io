@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  address: >
+  <!-- address: >
     <p>570 Beale Street</p>
     <p>Apt 413</p>
-    <p>San Francisco, California 94105</p>
+    <p>San Francisco, California 94105</p> -->
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,4 +28,4 @@ I hold a bachelor's degree in Computer Science and Engineering from the Indian I
 
 To learn more about me, here is my <a href="/assets/pdf/phd_cv.pdf">CV</a>.
 
-In my spare time, I like to go on hikes with friends, travel, read and write poems, and paint. Recently, I have been learning to mix drinks &#127864;
+Currently, I live in San Francisco. In my spare time, I like to go on hikes with friends, travel, read and write poems, and paint. Recently, I have been learning to mix drinks &#127864;
