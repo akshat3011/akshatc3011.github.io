@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, welcome to my page :)
 
-I am a software engineer at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website. My research interests are in studying and building intelligent systems that understand human communication and behavior patterns.
+I am a software engineer at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website. My research interests are in (i) Understanding human behavioral patterns using computational techniques (ii) Building intelligent systems with capabilities to understand the same (iii) Refining intelligent systems by studying their interactions with humans.
 
 I graduated with an MS(Hons) in Computer Science from the University of Southern California. While, at USC, I was part of the <a href="https://somalab.usc.edu/about/">Social Media Analytics</a> lab and <a href="https://www.ihp-lab.org/">Intelligent Human Perception</a> lab. I worked on several research projects involving multimodal machine learning, affective computing, social media analysis, and dialogue systems.
 
