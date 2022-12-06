@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, welcome to my page :)
 
-I am a software engineer at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website. My research interests are in using Machine Learning to build “behavior-aware” intelligent systems in the education and healthcare domain. Specifically, this involves:
+I am a software engineer at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website. My research interests are in using Machine Learning and Human-Computer Interaction techniques to build “behavior-aware” intelligent systems in the education and healthcare space. Specifically, this involves:
 <ol type="i">
   <li>Developing computational models of human affective, cognitive, and psychological states.</li>
   <li>Analyzing verbal and non-verbal social signals using multimodal Machine Learning (ML).
