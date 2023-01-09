@@ -24,6 +24,7 @@ I am a software engineer at Amazon Search working with natural language processi
 </li>
   <li>Using learnings from (i) and (ii) to design intelligent systems that support the learning and assistive needs of people.
 </li>
+<li>Understanding the interaction of humans with these intelligent systems</li>
 </ol>
 
 I graduated with an MS(Hons) in Computer Science from the University of Southern California. While, at USC, I was part of the <a href="https://somalab.usc.edu/about/">Social Media Analytics</a> lab and <a href="https://www.ihp-lab.org/">Intelligent Human Perception</a> lab. I worked on several research projects involving multimodal machine learning, affective computing, social media analysis, and dialogue systems.
