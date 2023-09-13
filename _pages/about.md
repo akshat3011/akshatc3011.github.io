@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: SDE(ML)@<b>Amazon Search</b> | Grad:<b>USC</b> | Undergrad:<b>IIT PKD</b>
+subtitle: PhD:<b>Northeastern University</b> | Grad:<b>USC</b> | Undergrad:<b>IIT PKD</b>
 
 profile:
   align: right
@@ -17,15 +17,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hi, welcome to my page :)
 
-I am a software engineer at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website. My research interests are in using Machine Learning and Human-Computer Interaction techniques to build “behavior-aware” intelligent systems in the education and healthcare space. Specifically, this involves:
-<ol type="i">
-  <li>Developing computational models of human affective, cognitive, and psychological states.</li>
-  <li>Analyzing verbal and non-verbal social signals using multimodal Machine Learning (ML).
-</li>
-  <li>Using learnings from (i) and (ii) to design intelligent systems that support the learning and assistive needs of people.
-</li>
-<li>Understanding the interaction of humans with these intelligent systems</li>
-</ol>
+I am a first year Ph.D. student at Khoury School of Computer Sciences at Northeastern University advised by Prof. Varun Mishra. My research interests are in using Machine Learning and Human-Computer Interaction techniques to build “behavior-aware” intelligent systems in healthcare space.
+
+
+Prior to this, I worked a software engineer (ML) at Amazon Search working with natural language processing/machine learning models to understand customers' intents from search queries on Amazon website.
 
 I graduated with an MS(Hons) in Computer Science from the University of Southern California. While, at USC, I was part of the <a href="https://somalab.usc.edu/about/">Social Media Analytics</a> lab and <a href="https://www.ihp-lab.org/">Intelligent Human Perception</a> lab. I worked on several research projects involving multimodal machine learning, affective computing, social media analysis, and dialogue systems.
 
