@@ -28,4 +28,4 @@ I hold a bachelor's degree in Computer Science and Engineering from the Indian I
 
 To learn more about me, here is my <a href="/assets/pdf/phd_cv.pdf">CV</a>.
 
-Currently, I live in San Francisco. In my spare time, I like to go on hikes, travel, read and write poems, and paint. Recently, I have been learning to mix drinks &#127864;
+Currently, I live in Boston. In my spare time, I like to go on hikes, travel, read and write poems, and paint. Recently, I have been learning to mix drinks &#127864;
